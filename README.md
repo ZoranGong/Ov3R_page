@@ -1,14 +1,14 @@
-# HS-SLAM
+# Ov3R
 
-This is the repository that contains source code for the [HS-SLAM website](https://zorangong.github.io/HS-SLAM/).
+This is the repository that contains source code for the [Ov3R website](https://zorangong.github.io/Ov3R/).
 
 If you find Nerfies useful for your work please cite:
 ```
-@inproceedings{Gong2025HS-SLAM,
-  author    = {Ziren Gong and Fabio Tosi and Youmin Zhang and Stefano Mattoccia and Matteo Poggi},
-  title     = {HS-SLAM: Hybrid Representation with Structural Supervision for Improved Dense SLAM},
-  booktitle = {Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)},
-  year      = {2025}
+@article{gong2025ov3r,
+  title={Ov3R: Open-Vocabulary Semantic 3D Reconstruction from RGB Videos},
+  author={Gong, Ziren and Li, Xiaohan and Tosi, Fabio and Han, Jiawei and Mattoccia, Stefano and Cai, Jianfei and Poggi, Matteo},
+  journal={arXiv preprint arXiv:2507.22052},
+  year={2025}
 }
 ```
 

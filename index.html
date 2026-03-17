@@ -155,7 +155,7 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <img style="width: 100%;" src="./static/images/teaser.jpg"
+      <img style="width: 100%;" src="./static/images/ov3r_teaser.jpg"
              alt="NIS-SLAM architecture."/>
       <h2 class="subtitle has-text-justified">
         <p>
@@ -216,16 +216,26 @@
       <div class="column is-full-width">
         <h2 class="title is-3">Visualization</h2>
           <div class="has-text-centered">
-            <img style="width: 100%;" src="./static/images/comparison.jpg"
+            <img style="width: 100%;" src="./static/images/ov_vis.jpg"
              alt="Reconstruction Result."/>
           </div>
           <h2 class="content has-text-justified">
             <p>
-              <strong><font size="4">Annotations:</font></strong> For each scene, we provide detailed drawings, highlighting complex regions to emphasize the textures and completeness of our reconstructed scenes. 
-              HS-SLAM demonstrates superior scene representation capabilities, effectively capturing intricate textures (e.g., flowers and nightstands) 
-              and achieving higher completeness in challenging areas (e.g., chairs and walls).
+              <strong><font size="4">Annotations:</font></strong> We present open-vocabulary segmentation results of several different objects. 
+              Ov3R demonstrates accurate segmentations for diverse situations, e.g. multiple objects (pillows, chairs), small objects (vases), and large objects (tables). 
             </p>
           </h2>
+          <div class="has-text-centered">
+            <img style="width: 100%;" src="./static/images/ov3r_recon_vis.jpg"
+             alt="Reconstruction Result."/>
+          </div>
+          <h2 class="content has-text-justified">
+            <p>
+              <strong><font size="4">Annotations:</font></strong> For each scene, we provide ground truth pointmaps as references, and compare our reconstructed indoor scenes against SLAM3R and Spann3R.
+              Ov3R presents stronger performance on geometry consistency and accuracy, while SLAM3R outputs misaligned recosntructions and Spann3R predicts very sparse pointmaps. 
+            </p>
+          </h2>
+        
 
       </div>
     </div>
@@ -249,6 +259,12 @@
         <div class="content has-text-justified">
           <p>
             There's a lot of excellent work that was introduced around the same time as ours.
+          </p>
+          <p>
+            <a href="https://arxiv.org/abs/2507.19474">DINO-SLAM: DINO-informed RGB-D SLAM for Neural Implicit and Explicit Representations</a> provides two foundational paradigms for NeRF and 3DGS SLAM systems integrating geometry-aware DINO features.
+          </p>
+          <p>
+            <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11127551">HS-SLAM: Hybrid Representation with Structural Supervision for Improved Dense SLAM</a> introduce HS-SLAM to enhance scene representations, capture structural information, and maintain global consistency.
           </p>
           <p>
             <a href="https://arxiv.org/abs/2402.13255">How NeRFs and 3D Gaussian Splatting are Reshaping SLAM: a Survey</a> provides the first comprehensive survey of SLAM progress through the lens of the latest advancements in radiance fields (NeRF and 3DGS).

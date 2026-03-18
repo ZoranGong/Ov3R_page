@@ -187,24 +187,22 @@
     </div>
     <!--/ Abstract. -->
 
-    <!-- Paper video. -->
+    <!-- Paper Framework -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Video</h2>
+        <h2 class="title is-3">Framework</h2>
         <div class="content has-text-centered">
-          <video id="replay-video"
-                 controls
-                 muted
-                 preload
-                 playsinline
-                 width="75%">
-            <source src="./static/videos/ICRA2025_video.mp4"
-                    type="video/mp4">
-          </video>
+            <img style="width: 100%;" src="./static/images/overview_ov3r.jpg"
+             alt="Reconstruction Result."/>
         </div>
+        <p>
+          <strong><font size="4">Annotations:</font></strong> Given RGB-only videos, we first apply CLIP3R to produce scene points while SAM predicts 2D segments. Each 2D segment is matched to its corresponding 3D points to obtain 3D semantics. 
+          Next, the 2D-3D OVS extracts the fused 2D-3D descriptor to compute the cosine similarity with the text embeddings corresponding to a set of semantic classes.
+        </p>
+        </h2>
       </div>
     </div>
-    <!--/ Paper video. -->
+    <!--/ Paper Framework. -->
   </div>
 </section>
 
